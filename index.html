@@ -116,12 +116,12 @@
       div.innerHTML = `
         <a href="${folder}/${file}" data-lightbox="bappy" data-title="<strong>${folder}</strong><br>${place} - ${time}">
           <img src="${folder}/${file}" alt="${file}">
-        </a>
-        <div class="details">
-          <p><i class="fa-solid fa-location-dot"></i> ${place}</p>
-          <p><i class="fa-regular fa-calendar"></i> ${time}</p>
-        </div>
-      `;
+        </a>`
+        //<div class="details">
+         // <p><i class="fa-solid fa-location-dot"></i> ${place}</p>
+         // <p><i class="fa-regular fa-calendar"></i> ${time}</p>
+       // </div>
+      ;
       gallery.appendChild(div);
     });
   }
@@ -161,4 +161,5 @@
 </script>
 
 </body>
+
 </html>
